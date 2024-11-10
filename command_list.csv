@@ -1,0 +1,236 @@
+    1  git config --global user.name "IlonaZdorovenko"
+    2  git config --global user.email ilonazdorovenko0@gmail.com
+    3  git clone https://github.com/IlonaZdorovenko/HW_10.git
+    4  git clone <https://github.com/IlonaZdorovenko/HW_10.git>
+    5  git status
+    6  cd HW_10
+    7  git status
+    8  git add HW_10
+    9  git status text_ignore.txt
+   10  gid add
+   11  git add [200~
+   12  git add text_ignore.txt
+   13  git status
+   14  git commit -m "New file created"
+   15  git status
+   16  git log
+   17  touch main_test.txt
+   18  cd
+   19  User@DESKTOP-L8ESS0Q MINGW64 ~
+   20  $ history -c && rm ~/.bash_history
+   21  User@DESKTOP-L8ESS0Q MINGW64 ~
+   22  $ git config --global user.name "IlonaZdorovenko"
+   23  User@DESKTOP-L8ESS0Q MINGW64 ~
+   24  $ git config --global user.email ilonazdorovenko0@gmail.com
+   25  User@DESKTOP-L8ESS0Q MINGW64 ~
+   26  $ git clone https://github.com/IlonaZdorovenko/HW_10.git
+   27  fatal: destination path 'HW_10' already exists and is not an empty directory.
+   28  User@DESKTOP-L8ESS0Q MINGW64 ~
+   29  $ git clone <https://github.com/IlonaZdorovenko/HW_10.git>
+   30  bash: syntax error near unexpected token `newline'
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ cd HW_10
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_ignore.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git add HW_10
+fatal: pathspec 'HW_10' did not match any files
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git status text_ignore.txt
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_ignore.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ gid add
+bash: gid: command not found
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git add ^[[200~
+fatal: pathspec '?[200~' did not match any files
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git add text_ignore.txt
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   text_ignore.txt
+
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ history -c && rm ~/.bash_history
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ git config --global user.name "IlonaZdorovenko"
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ git config --global user.email ilonazdorovenko0@gmail.com
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ git clone https://github.com/IlonaZdorovenko/HW_10.git
+fatal: destination path 'HW_10' already exists and is not an empty directory.
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ git clone <https://github.com/IlonaZdorovenko/HW_10.git>
+bash: syntax error near unexpected token `newline'
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$ cd HW_10
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_ignore.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git add HW_10
+fatal: pathspec 'HW_10' did not match any files
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git status text_ignore.txt
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_ignore.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ gid add
+bash: gid: command not found
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git add ^[[200~
+fatal: pathspec '?[200~' did not match any files
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git add text_ignore.txt
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   text_ignore.txt
+
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git commit -m "New file created"
+[main 77cf089] New file created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text_ignore.txt
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ git log
+commit 77cf08994b98abd5a491ecd6dd35fe326c9c9c48 (HEAD -> main)
+Author: IlonaZdorovenko <ilonazdorovenko0@gmail.com>
+Date:   Sun Nov 10 14:57:19 2024 +0300
+
+    New file created
+
+commit 980bfa720ca95a6b6c75d16ba2957b1d2a214316 (origin/main, origin/HEAD)
+Author: IlonaZdorovenko <ilonazdorovenko0@gmail.com>
+Date:   Sat Nov 9 14:47:24 2024 +0300
+
+    Initial commit
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ touch main_test.txt
+
+User@DESKTOP-L8ESS0Q MINGW64 ~/HW_10 (main)
+$ cd
+
+User@DESKTOP-L8ESS0Q MINGW64 ~
+$
+cd ..
+ls
+pwd
+   31  touch develop_test.txt
+   32  pwd
+   33  cd HW_10
+   34  touch develop_test.txt
+   35  cd HW_10
+   36  touch main_test.txt
+   37  touch main_test.txt
+   38  git add .
+   39  cd HW
+   40  cd /c/Users/User/Desktop/HW/HW_10
+   41  pwd
+   42  touch main_test.txt
+   43  git status
+   44  git add .
+   45  git status
+   46  git commit -m "New file created main_test.txt"
+   47  git log
+   48  pwd
+   49  git branch
+   50  git checkout -b develop
+   51  git branch
+   52  touch develop_test.txt
+   53  ls
+   54  git add .
+   55  git status
+   56  git commit -m "New file created develop_test.txt"
+   57  notepad develop_test.txt
+   58  just a small change
+   59  git status
+   60  git add .
+   61  git status
+   62  git commit -m "Changes added develop_test.txt"
+   63  git log
+   64  pwd
+   65  git checkout main
+   66  git branch
+   67  git merge develop
+   68  git log
+   69  history > command_list.csv
